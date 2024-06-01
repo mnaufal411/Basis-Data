@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../includes/config.php';
 
 $sql = "SELECT * FROM rooms";
 $result = mysqli_query($db, $sql);
